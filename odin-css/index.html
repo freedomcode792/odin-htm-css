@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Introduction to CSS</h1>
+    <h2>Grouping Selectors</h2>
     <div>Test element1</div>
     <div>test2</div>
     <div class="alert-text">Careful, this is a test!</div>
@@ -24,8 +25,24 @@
          only to elements which have certain multiple classes 
         applied to them.</div>
 
+    <h4>Group selector fomula: [selector1][,][selector2]</h4>
     <div class="testing2" id="testid2">You can chain-mix different
         types of selectors, except tag selectors.
     </div>
+    
+    <h4>Chain-selector formula: [selector1][no space][selector2]</h4>
+   
+    <div class="ancestor">
+        <h4>Descendant combinator formula: [selector1][space][selector2]</h4>
+        <p class="child">Descendant combinators match elements with the last specified
+        tag and with ancestor matching the previous tag.
+        </p>
+        <div class="child">
+            <p class="grandson">There is no limit to the amount of ancestors in the descendant combinator, thought
+                it is recommended to avoid long lineages in order to prevent confusion.
+            </p>
+        </div>
+    </div>
+    
 </body>
 </html>
