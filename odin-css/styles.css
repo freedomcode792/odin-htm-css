@@ -1,0 +1,52 @@
+* {
+    color: purple;
+}
+
+div {
+    color: green;
+}
+
+.alert-text {
+    color: red;
+}
+
+.severe-alert {
+    font-size: x-large;
+}
+
+#testid {
+    background-color: aqua;
+}
+
+#testid2 {
+    margin-top: 20px;
+}
+
+
+.testing1,
+.testing2 {
+    color: white;
+    background-color: black;
+}
+
+.testing1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.testing2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.testing1.testing2 {
+    border-style:inset;
+    border-width: 5px;
+    border-color: red;
+}
+
+.testing2#testid2 {
+    border-style: dashed;
+    border-width: 4px;
+    border-color: pink;
+}
