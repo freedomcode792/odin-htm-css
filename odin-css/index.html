@@ -25,7 +25,7 @@
          only to elements which have certain multiple classes 
         applied to them.</div>
 
-    <h4>Group selector fomula: [selector1][,][selector2]</h4>
+    <h4>Group selector formula: [selector1][,][selector2]</h4>
     <div class="testing2" id="testid2">You can chain-mix different
         types of selectors, except tag selectors.
     </div>
@@ -44,5 +44,66 @@
         </div>
     </div>
     
+    <h2>Basic Style Properties</h2>
+
+    <p class="text-color1">"color" property sets an element's text color</p>
+
+    <p class="back-color1">"background-color" sets the color of an elements background</p>
+
+    <p>Colors can be assigned using several kinds of values.</p>
+    <ul>
+        <li class="keyword-color">keyword teal</li>
+        <li class="keyword-transparent">transparent</li>
+        <li class="hex-color">HEX</li>
+        <li class="rgb-color">RGB</li>
+        <li class="hsl-color">HSL</li>
+    </ul>
+
+    <h2>Fonts can be changed using "font-family" property</h2>
+    
+    <p>Fonts fall into one of two categories:  </p>
+    <ul>
+        <li class="font-family-name"><strong>"Font family names"</strong> -- are enclosed in double quotes and usually starts with a capital letter, since it's a name.</li>
+        <li class="generic-family-name"><strong>generic family names</strong> -- never use quotes</li>
+    </ul>
+
+    <p>Multiple font values can be specified within "font-family" property like so:
+        <strong>font-family: ""Times New Roman", sans-serif;</strong>
+    </p>
+    <p class="font-fallback">The first value is the
+        primary value the browser will look for first. If it can't be
+        displayed, for some reason, the browser will fallback to the next
+        value in the list and so on.
+    </p>
+
+    <p class="change-size">Size of the font can be changed using <strong>font-size</strong> property.</p>
+
+    <p class="change-weight">To change font weight use <em>font-weight</em> property.</p>
+
+    <p class="change-horizontal-alignment">To align a body of text horizontally use <strong>text-align</strong> tag.</p>
+
+    <h2>Image height and width</h2>
+    <p>To change height or width of an image, use <b>height</b> and <b>width</b> properties, respectively.</p>
+    <img class="image-dog" src="../odin-links-and-images/images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg">
+    <p>Use keyword <strong>auto</strong> with either width or height to adjust the chosen paramether automatically in proportion to the other one.</p>
+    <p><em>Declare both height and width, as this will reserve the space for the image and prevent other elements from taking
+        the space for themselves before the image has loaded.
+    </em></p>
+    
+    <h2>Adding CSS to HTML</h2>
+
+    <h3>Method 1: External CSS Styles file</h3>
+    <p>External CSS file is the most preferred method of adding CSS to HTML</p>
+    <p>File containing CSS is conventionally named <strong>styles.css</strong></p>
+    <p>To link an external styles file place <strong>link</strong> tag with attributes <b>rel="stylesheet"</b> and <b>href="path-to-file"</b></p>
+    
+    <h3>Method 2: Internal CSS Styles tag</h3>
+    <p>Alternatively it is possible to declare all CSS properties within a <b>style</b> tag nested in <b>head</b> tag</p>
+
+    <h3>Method 3: Inline CSS style property</h3>
+    <p style="background-color: pink; font-family: monospace; font-size: 20px;">The last approach to adding CSS is placing it in <b>style</b> property of the target tag</p>
+    <p>This method allows to add CSS styling directly to a tag.</p>
+    <p>It isn't recommended to use Inline CSS because it can create clutter</p>
+    <p>Note that Inline CSS overrides styling from any other method, which can be useful in some situations.</p>
 </body>
 </html>

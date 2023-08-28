@@ -58,3 +58,64 @@ div {
 .ancestor .child .grandson {
     background-image: linear-gradient(to right, yellow, orange, red);
 }
+
+.text-color1{
+    color: violet;
+}
+
+.back-color1 {
+    background-color: aquamarine;
+}
+
+.keyword-color {
+    color:teal;
+}
+
+.keyword-transparent {
+    color:transparent;
+
+    border-radius: 3px;
+    border-style: groove;
+    border-color: indigo;
+}
+
+.hex-color {
+    color: #1100ff;
+}
+
+.rgb-color {
+    color: rgb(204, 0, 136)
+}
+
+.hsl-color {
+    color: hsl(40, 74%, 59%)
+}
+
+.font-family-name{
+    font-family: "Times New Roman";
+}
+
+.generic-family-name {
+    font-family: sans-serif;
+}
+
+.font-fallback {
+    font-family: "Nonexistent New Roman", monospace;
+}
+
+.change-size {
+    font-size: 25px;
+}
+
+.change-weight {
+    font-weight:600;
+}
+
+.change-horizontal-alignment {
+    text-align: right;
+}
+
+.image-dog {
+    height: auto;
+    width: 300px;
+}
